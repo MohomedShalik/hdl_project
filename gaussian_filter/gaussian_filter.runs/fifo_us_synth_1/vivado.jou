@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun Oct 24 09:14:21 2021
+# Process ID: 12489
+# Current directory: /home/halaldeen-ms/Dev/gaussian_filter/gaussian_filter.runs/fifo_us_synth_1
+# Command line: vivado -log fifo_us.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fifo_us.tcl
+# Log file: /home/halaldeen-ms/Dev/gaussian_filter/gaussian_filter.runs/fifo_us_synth_1/fifo_us.vds
+# Journal file: /home/halaldeen-ms/Dev/gaussian_filter/gaussian_filter.runs/fifo_us_synth_1/vivado.jou
+#-----------------------------------------------------------
+source fifo_us.tcl -notrace

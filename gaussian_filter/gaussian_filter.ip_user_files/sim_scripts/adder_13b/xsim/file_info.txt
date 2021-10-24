@@ -1,0 +1,2 @@
+adder_13b.vhd,vhdl,xil_defaultlib,../../../../gaussian_filter.srcs/sources_1/ip/adder_13b/sim/adder_13b.vhd,
+glbl.v,Verilog,xil_defaultlib,glbl.v

@@ -1,0 +1,142 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: /home/halaldeen-ms/vivado/Vivado/2018.3/bin/unwrapped/lnx64.o/xelab -wto 34958394216b46df885688a5965fc432 --incr --debug typical --relax --mt 8 -L fifo_generator_v13_2_3 -L xil_defaultlib -L xbip_utils_v3_0_9 -L xbip_pipe_v3_0_5 -L xbip_bram18k_v3_0_5 -L mult_gen_v12_0_14 -L c_reg_fd_v12_0_5 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_dsp48_addsub_v3_0_5 -L xbip_addsub_v3_0_5 -L c_addsub_v12_0_12 -L axi_utils_v2_0_5 -L floating_point_v7_0_15 -L xbip_dsp48_mult_v3_0_5 -L xbip_dsp48_multadd_v3_0_5 -L div_gen_v5_1_14 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_filter_behav xil_defaultlib.tb_filter xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_textio
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling package mult_gen_v12_0_14.mult_gen_v12_0_14_viv_comp
+Compiling package xbip_utils_v3_0_9.xbip_utils_v3_0_9_pkg
+Compiling package mult_gen_v12_0_14.mult_gen_v12_0_14_pkg
+Compiling package ieee.std_logic_signed
+Compiling package unisim.vcomponents
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling package c_addsub_v12_0_12.c_addsub_v12_0_12_viv_comp
+Compiling package xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv_comp
+Compiling package xbip_addsub_v3_0_5.xbip_addsub_v3_0_5_viv_comp
+Compiling package c_addsub_v12_0_12.c_addsub_v12_0_12_pkg
+Compiling package c_addsub_v12_0_12.c_addsub_v12_0_12_pkg_legacy
+Compiling package c_reg_fd_v12_0_5.c_reg_fd_v12_0_5_viv_comp
+Compiling package div_gen_v5_1_14.div_gen_v5_1_14_viv_comp
+Compiling package axi_utils_v2_0_5.axi_utils_v2_0_5_pkg
+Compiling package ieee.math_real
+Compiling package axi_utils_v2_0_5.global_util_pkg
+Compiling package axi_utils_v2_0_5.axi_utils_comps
+Compiling package xbip_bram18k_v3_0_5.xbip_bram18k_v3_0_5_pkg
+Compiling package div_gen_v5_1_14.div_gen_pkg
+Compiling package div_gen_v5_1_14.pkg_addsub
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling architecture behavioral of entity xil_defaultlib.d_ff_8 [d_ff_8_default]
+Compiling module fifo_generator_v13_2_3.fifo_generator_v13_2_3_bhv_ver_s...
+Compiling module fifo_generator_v13_2_3.fifo_generator_v13_2_3_CONV_VER(...
+Compiling module fifo_generator_v13_2_3.fifo_generator_vlog_beh(C_COMMON...
+Compiling module fifo_generator_v13_2_3.fifo_generator_v13_2_3(C_COMMON_...
+Compiling module xil_defaultlib.fifo_us
+Compiling architecture behavioral of entity xil_defaultlib.Pixel_Buffer [pixel_buffer_default]
+Compiling architecture lut2_v of entity unisim.LUT2 [\LUT2(init="1000")(0,3)\]
+Compiling architecture mult_and_v of entity unisim.MULT_AND [mult_and_default]
+Compiling architecture muxcy_v of entity unisim.MUXCY [muxcy_default]
+Compiling architecture xorcy_v of entity unisim.XORCY [xorcy_default]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.op_resize [\op_resize(ai_width=4,bi_width=8...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.luts [\luts(c_xdevicefamily="artix7",c...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.mult_gen_v12_0_14_viv [\mult_gen_v12_0_14_viv(c_verbosi...]
+Compiling architecture xilinx of entity mult_gen_v12_0_14.mult_gen_v12_0_14 [\mult_gen_v12_0_14(c_xdevicefami...]
+Compiling architecture multiplier_arch of entity xil_defaultlib.multiplier [multiplier_default]
+Compiling architecture behavioral of entity xil_defaultlib.d_ff_12 [d_ff_12_default]
+Compiling architecture structural of entity c_reg_fd_v12_0_5.c_reg_fd_v12_0_5_viv [\c_reg_fd_v12_0_5_viv(c_width=13...]
+Compiling architecture rtl of entity c_addsub_v12_0_12.c_addsub_v12_0_12_lut6_legacy [\c_addsub_v12_0_12_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_fabric_legacy [\c_addsub_v12_0_12_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_legacy [\c_addsub_v12_0_12_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_viv [\c_addsub_v12_0_12_viv(c_xdevice...]
+Compiling architecture xilinx of entity c_addsub_v12_0_12.c_addsub_v12_0_12 [\c_addsub_v12_0_12(c_xdevicefami...]
+Compiling architecture adder_12b_arch of entity xil_defaultlib.adder_12b [adder_12b_default]
+Compiling architecture synth of entity div_gen_v5_1_14.c_twos_comp_viv [\c_twos_comp_viv(c_width=16,c_ai...]
+Compiling architecture virtex of entity div_gen_v5_1_14.cmp2s_v [\cmp2s_v(c_bus_width=16,c_regist...]
+Compiling architecture synth of entity div_gen_v5_1_14.c_twos_comp_viv [\c_twos_comp_viv(c_width=6,c_ain...]
+Compiling architecture virtex of entity div_gen_v5_1_14.cmp2s_v [\cmp2s_v(c_bus_width=6,c_ainit_v...]
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_latency=...]
+Compiling architecture rtl of entity div_gen_v5_1_14.c_addsub_lut6 [\c_addsub_lut6(c_width=7,c_add_m...]
+Compiling architecture synth of entity div_gen_v5_1_14.c_addsub_viv [\c_addsub_viv(c_a_width=7,c_b_wi...]
+Compiling architecture virtex of entity div_gen_v5_1_14.addsubreg_v [\addsubreg_v(c_bus_width=7,c_ain...]
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_latency=...]
+Compiling architecture rtl of entity div_gen_v5_1_14.c_addsub_lut6 [\c_addsub_lut6(c_width=7,c_add_m...]
+Compiling architecture synth of entity div_gen_v5_1_14.c_addsub_viv [\c_addsub_viv(c_a_width=7,c_b_wi...]
+Compiling architecture virtex of entity div_gen_v5_1_14.addsubreg_v [\addsubreg_v(c_bus_width=7,c_has...]
+Compiling architecture virtex of entity div_gen_v5_1_14.dividervdc_v [\dividervdc_v(bus_num=16,div_clo...]
+Compiling architecture synth of entity div_gen_v5_1_14.c_twos_comp_viv [\c_twos_comp_viv(c_width=7,c_ain...]
+Compiling architecture virtex of entity div_gen_v5_1_14.cmp2s_v [\cmp2s_v(c_bus_width=7,c_registe...]
+Compiling architecture synth of entity div_gen_v5_1_14.c_twos_comp_viv [\c_twos_comp_viv(c_width=17,c_ai...]
+Compiling architecture virtex of entity div_gen_v5_1_14.cmp2s_v [\cmp2s_v(c_bus_width=17,c_regist...]
+Compiling architecture synth of entity div_gen_v5_1_14.bip_sdivider_synth [\bip_sdivider_synth(c_xdevicefam...]
+Compiling architecture synth of entity div_gen_v5_1_14.div_gen_synth [\div_gen_synth(c_xdevicefamily="...]
+Compiling architecture synth of entity xbip_pipe_v3_0_5.xbip_pipe_v3_0_5_viv [\xbip_pipe_v3_0_5_viv(c_latency=...]
+Compiling architecture synth of entity div_gen_v5_1_14.div_gen_v5_1_14_viv [\div_gen_v5_1_14_viv(c_xdevicefa...]
+Compiling architecture xilinx of entity div_gen_v5_1_14.div_gen_v5_1_14 [\div_gen_v5_1_14(c_xdevicefamily...]
+Compiling architecture divider_arch of entity xil_defaultlib.divider [divider_default]
+Compiling architecture structural of entity c_reg_fd_v12_0_5.c_reg_fd_v12_0_5_viv [\c_reg_fd_v12_0_5_viv(c_width=14...]
+Compiling architecture rtl of entity c_addsub_v12_0_12.c_addsub_v12_0_12_lut6_legacy [\c_addsub_v12_0_12_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_fabric_legacy [\c_addsub_v12_0_12_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_legacy [\c_addsub_v12_0_12_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_viv [\c_addsub_v12_0_12_viv(c_xdevice...]
+Compiling architecture xilinx of entity c_addsub_v12_0_12.c_addsub_v12_0_12 [\c_addsub_v12_0_12(c_xdevicefami...]
+Compiling architecture adder_13b_arch of entity xil_defaultlib.adder_13b [adder_13b_default]
+Compiling architecture structural of entity c_reg_fd_v12_0_5.c_reg_fd_v12_0_5_viv [\c_reg_fd_v12_0_5_viv(c_width=15...]
+Compiling architecture rtl of entity c_addsub_v12_0_12.c_addsub_v12_0_12_lut6_legacy [\c_addsub_v12_0_12_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_fabric_legacy [\c_addsub_v12_0_12_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_legacy [\c_addsub_v12_0_12_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_viv [\c_addsub_v12_0_12_viv(c_xdevice...]
+Compiling architecture xilinx of entity c_addsub_v12_0_12.c_addsub_v12_0_12 [\c_addsub_v12_0_12(c_xdevicefami...]
+Compiling architecture adder_14b_arch of entity xil_defaultlib.adder_14b [adder_14b_default]
+Compiling architecture structural of entity c_reg_fd_v12_0_5.c_reg_fd_v12_0_5_viv [\c_reg_fd_v12_0_5_viv(c_width=16...]
+Compiling architecture rtl of entity c_addsub_v12_0_12.c_addsub_v12_0_12_lut6_legacy [\c_addsub_v12_0_12_lut6_legacy(c...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_fabric_legacy [\c_addsub_v12_0_12_fabric_legacy...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_legacy [\c_addsub_v12_0_12_legacy(c_fami...]
+Compiling architecture synth of entity c_addsub_v12_0_12.c_addsub_v12_0_12_viv [\c_addsub_v12_0_12_viv(c_xdevice...]
+Compiling architecture xilinx of entity c_addsub_v12_0_12.c_addsub_v12_0_12 [\c_addsub_v12_0_12(c_xdevicefami...]
+Compiling architecture adder_15b_arch of entity xil_defaultlib.adder_15b [adder_15b_default]
+Compiling architecture behavioral of entity xil_defaultlib.filter [filter_default]
+Compiling architecture arch_tb_filter of entity xil_defaultlib.tb_filter
+Built simulation snapshot tb_filter_behav

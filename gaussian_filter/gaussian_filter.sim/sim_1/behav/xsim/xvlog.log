@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/halaldeen-ms/Dev/hdl_project/gaussian_filter/gaussian_filter.srcs/sources_1/ip/fifo_us/sim/fifo_us.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_us
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/halaldeen-ms/Dev/hdl_project/gaussian_filter/gaussian_filter.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

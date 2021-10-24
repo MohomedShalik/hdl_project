@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../gaussian_filter.srcs/sources_1/ip/adder_15b/sim/adder_15b.vhd" \
+
+nosort
